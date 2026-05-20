@@ -6,6 +6,32 @@
 }
 
 body {
+    max-width: 1400px;
+    min-width: 1400px;
+    margin: 0 auto;
+}
+
+html {
+    font-size: 16px;
+}
+
+.name {
+    font-size: 2rem; 
+}
+
+.smalltext {
+    font-size: 1rem;
+}
+
+.sidebar {
+    width: 380px;
+    min-width: 380px;
+}
+
+.content {
+    width: calc(1400px - 380px);
+}
+body {
     font-family: Arial, sans-serif;
     display: flex;
     height: 100vh;
